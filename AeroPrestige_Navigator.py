@@ -1,4 +1,4 @@
-print('Welcome to the Airlines Prototype Membership System.\n')
+print('Welcome to the AeroPrestige Navigator.\n')
 
 # customers' information input-------------------------------------------------------------
 # Ask the user to input information about themselves
@@ -18,7 +18,7 @@ AnnualDollars = float(AnnualDollars)
 LifetimeMiles = int(LifetimeMiles)
 LoungeCheck = bool(LoungeCheck)
 TicketPrice = float(TicketPrice)
-input_summary = '\n{},this year, you have flown {:,} flights for {:,} miles and spent ${:,.2f} USD with Airlines. Lifetime, you have flown {:,} miles.\n'
+input_summary = '\n{},this year, you have flown {:,} flights for {:,} miles and spent ${:,.2f} USD with our Airlines. Lifetime, you have flown {:,} miles.\n'
 print(input_summary.format(FirstName, AnnualSegments, AnnualMiles, AnnualDollars, LifetimeMiles))
 
 
@@ -65,7 +65,7 @@ elif lifetime_membership_class == 0:
     if annual_membership_class != 0:
         display_membership = 'This year, you have achieved annual frequent-flier status at the {} level!'.format(annual_membership_tier)
     else:
-        display_membership = 'You are on your way to achieving annual frequent-flier status with Python Airlines!'
+        display_membership = 'You are on your way to achieving annual frequent-flier status with our Airlines!'
 
 print(display_membership + '\n')
 
